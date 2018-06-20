@@ -33,4 +33,10 @@ class page extends \Think\Controller{
 		$this->PageInfo  = $result;
 	}
 }
+//$count = sql -> count();
+//$page = new \Common\ext\page($count,12);
+//sql-> limit($page->first,$page->end)->select();
+//$result['page'] = $page->PageInfo;
+//$result['res']  = $res;
+//json_encode($result);
 ?>
