@@ -24,9 +24,9 @@ class page extends \Think\Controller{
 		//总页数
 		$this->PageCount = ceil($this->count / $this->size);
 		//开始
-		$this->first      = ($this->page-1)*$this->size;
+		$this->first     = ($this->page-1)*$this->size;
 		//结束
-		$this->end        = $this->size;
+		$this->end       = $this->size;
 		$result['page']  = $this->page;
 		$result['count'] = $this->PageCount;
 		$result['size']  = $this->size;
